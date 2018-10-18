@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: GrandHall
+  m_EditorClassIdentifier: 
+  description: You use the key on the door, and the door opens up. Stepping through
+    it, the door slams locked behind you. The room is very wide and log, with each
+    side of the room aligned with tens of torches.
+  roomName: Grand
+  exits:
+  - keyString: north
+    exitDescription: A path goes north, towards what seems to be a silhouette of a
+      throne.
+    valueRoom: {fileID: 11400000, guid: aecb5a86f6bf4ce4dbefa9c85991d273, type: 2}
+  interactableObjectsInRoom: []
