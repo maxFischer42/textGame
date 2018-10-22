@@ -19,4 +19,4 @@ MonoBehaviour:
     exitDescription: East of here is the crossroads that branches off into more rooms.
     valueRoom: {fileID: 11400000, guid: ca41deff4ffa7fc4fa5617d3b9dae5dd, type: 2}
   interactableObjectsInRoom:
-  - {fileID: 11400000, guid: 7ac2e91c3898f6d4998ab675e82317ba, type: 2}
+  - {fileID: 11400000, guid: 86793425adf4d494b9495a8149973b70, type: 2}

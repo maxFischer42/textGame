@@ -50,14 +50,14 @@ public class GameController : MonoBehaviour
 
         string combinedText = "";
 
-        if (roomNavigation.currentRoom.name == "Throne" && !interactableItems.nounsInInventory.Contains("sword"))
+        /*if (roomNavigation.currentRoom.name == "Throne" && !interactableItems.nounsInInventory.Contains("blade"))
         {
             combinedText = combinedText + " The knight sees you with no weapons and slays you on the spot. You lose.";
         }
         else
-        {
+        {*/
             combinedText = roomNavigation.currentRoom.description + "\n" + joinedInteractionDescriptions;
-        }
+        //}
 
         LogStringWithReturn(combinedText);
     }

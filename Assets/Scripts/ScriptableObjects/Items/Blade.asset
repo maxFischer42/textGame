@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c060184a6ca603540a03f1716534f024, type: 3}
+  m_Name: Blade
+  m_EditorClassIdentifier: 
+  noun: blade
+  description: A damaged blade lies on the ground.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 960b9cac0fa3f4a4e8cb0e072a0e8a1b, type: 2}
+    textResponse: You take the blade.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 73cb9764c1328414d9ee309049ad2720, type: 2}
+    textResponse: 
+    actionResponse: {fileID: 11400000, guid: f4501020f3514474685ea3bddbea227c, type: 2}

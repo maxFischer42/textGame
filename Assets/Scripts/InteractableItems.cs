@@ -12,7 +12,7 @@ public class InteractableItems : MonoBehaviour
     [HideInInspector] public List<string> nounsInRoom = new List<string>();
 
     Dictionary<string, ActionResponse> useDictionary = new Dictionary<string, ActionResponse>();
-    [HideInInspector] public List<string> nounsInInventory = new List<string>();
+    List<string> nounsInInventory = new List<string>();
     GameController controller;
 
     void Awake()
@@ -63,6 +63,7 @@ public class InteractableItems : MonoBehaviour
     {
         for (int i = 0; i < usableItemList.Count; i++)
         {
+            if (usableItemList[i].noun == noun)
             {
                 return usableItemList[i];
             }
@@ -105,60 +106,6 @@ public class InteractableItems : MonoBehaviour
         }
     }
 
-    public Dictionary<string, string> Eat(string[] separatedInputWords)
-    {
-        string noun = separatedInputWords[1];
-
-        if (nounsInRoom.Contains(noun))
-        {
-            controller.LogStringWithReturn("You try to eat the " + noun + " but you can't swallow it.");
-            return null;
-        }
-        else
-        {
-            controller.LogStringWithReturn("There is no " + noun + " here to eat.");
-            return null;
-        }
-    }
-
-    public Dictionary<string, string> Lick(string[] separatedInputWords)
-    {
-        string noun = separatedInputWords[1];
-
-        if (nounsInRoom.Contains(noun))
-        {
-            controller.LogStringWithReturn("You lick the " + noun + ". It says please don't lick me.");
-            return null;
-        }
-        else
-        {
-            int a = Random.Range(0, 6);
-            switch (a)
-            {
-                case 0:
-                    controller.LogStringWithReturn("You lick the " + noun + ". It has a very odd taste.");
-                    break;
-                case 1:
-                    controller.LogStringWithReturn("You lick the " + noun + ". It tastes like a non-poisonous apple.");
-                    break;
-                case 2:
-                    controller.LogStringWithReturn("You lick the " + noun + ". It tastes like multiple blades of grass.");
-                    break;
-                case 3:
-                    controller.LogStringWithReturn("You lick the " + noun + ". Why are you licking the " + noun + "?");
-                    break;
-                case 4:
-                    controller.LogStringWithReturn("You lick the " + noun + ". Simply delicious.");
-                    break;
-                case 5:
-                    controller.LogStringWithReturn("You lick the " + noun + ". It tastes of french fries.");
-                    break;
-            }
-
-            return null;
-        }
-    }
-
     public void UseItem(string[] separatedInputWords)
     {
         string nounToUse = separatedInputWords[1];
@@ -181,6 +128,20 @@ public class InteractableItems : MonoBehaviour
         else
         {
             controller.LogStringWithReturn("There is no " + nounToUse + " in your inventory to use");
+        }
+    }
+
+    public void Lick(string[] separatedInputWords)
+    {
+        string nounToUse = separatedInputWords[1];
+
+        if (nounsInInventory.Contains(nounToUse))
+        {             
+            controller.LogStringWithReturn("You lick the " + nounToUse + ".");
+        }
+        else
+        {
+            controller.LogStringWithReturn("There is no " + nounToUse + " in your inventory to lick");
         }
     }
 
