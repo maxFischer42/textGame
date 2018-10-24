@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: Border
+  m_EditorClassIdentifier: 
+  description: A bridging of a desert and the main hub.
+  roomName: de_border
+  exits:
+  - keyString: south
+    exitDescription: The south exit leads to the hub.
+    valueRoom: {fileID: 11400000, guid: 11534a4b62bd14744ad96703e1e639ba, type: 2}
+  - keyString: north
+    exitDescription: To the north is the southern area of the desert.
+    valueRoom: {fileID: 11400000, guid: eb25f245116507541b9832e8bbba8085, type: 2}
+  interactableObjectsInRoom: []

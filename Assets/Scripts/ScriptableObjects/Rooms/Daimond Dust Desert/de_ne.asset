@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: de_ne
+  m_EditorClassIdentifier: 
+  description: The north east area of the desert.
+  roomName: de_ne
+  exits:
+  - keyString: south
+    exitDescription: South of here is the southeast area of the desert.
+    valueRoom: {fileID: 11400000, guid: 9cf2f06c7c968a14f8046e5a316fb8ba, type: 2}
+  - keyString: 
+    exitDescription: 
+    valueRoom: {fileID: 0}
+  interactableObjectsInRoom: []

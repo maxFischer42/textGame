@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: de_hub
+  m_EditorClassIdentifier: 
+  description: The main hub of the Daimond Dust Desert.
+  roomName: de_hub
+  exits:
+  - keyString: south
+    exitDescription: South is the southern area of the desert.
+    valueRoom: {fileID: 11400000, guid: eb25f245116507541b9832e8bbba8085, type: 2}
+  - keyString: north
+    exitDescription: North of here is the northern area.
+    valueRoom: {fileID: 11400000, guid: 0ef900156a33db44fb0c89bd568455c6, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1c2a4a82b4677aa4390d9a3ed0d26aa9, type: 2}

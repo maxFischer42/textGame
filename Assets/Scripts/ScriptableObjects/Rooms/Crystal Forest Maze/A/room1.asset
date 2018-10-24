@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: room1
+  m_EditorClassIdentifier: 
+  description: 
+  roomName: ma_r1
+  exits:
+  - keyString: west
+    exitDescription: A path leads west.
+    valueRoom: {fileID: 11400000, guid: a7b8552f901e2c8469a4225897ffc3ff, type: 2}
+  - keyString: east
+    exitDescription: A path leads east.
+    valueRoom: {fileID: 11400000, guid: 4ef4417d75e7e8043aa5a4a4914e6492, type: 2}
+  - keyString: north
+    exitDescription: A path leads north.
+    valueRoom: {fileID: 11400000, guid: 186797f8155d18e42b3c98a421a063f2, type: 2}
+  - keyString: South
+    exitDescription: A path south exits the maze.
+    valueRoom: {fileID: 11400000, guid: 03df723fea669f440aa0de796cae2cab, type: 2}
+  interactableObjectsInRoom: []

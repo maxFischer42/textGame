@@ -9,6 +9,8 @@ public class InteractableItems : MonoBehaviour
     public Dictionary<string, string> examineDictionary = new Dictionary<string, string>();
     public Dictionary<string, string> takeDictionary = new Dictionary<string, string>();
 
+    public Dictionary<string, ActionResponse> warpDictionary = new Dictionary<string, ActionResponse>();
+
     [HideInInspector] public List<string> nounsInRoom = new List<string>();
 
     Dictionary<string, ActionResponse> useDictionary = new Dictionary<string, ActionResponse>();
@@ -128,6 +130,31 @@ public class InteractableItems : MonoBehaviour
         else
         {
             controller.LogStringWithReturn("There is no " + nounToUse + " in your inventory to use");
+        }
+    }
+
+    public void WarpItem(string[] separatedInputWords)
+    {
+        string nounToUse = separatedInputWords[1];
+
+        if (nounsInInventory.Contains(nounToUse))
+        {
+            if (useDictionary.ContainsKey(nounToUse))
+            {
+                bool actionResult = warpDictionary[nounToUse].DoActionResponse(controller);
+                if (!actionResult)
+                {
+                    controller.LogStringWithReturn("Hmm. Nothing happens.");
+                }
+            }
+            else
+            {
+                controller.LogStringWithReturn("You can't use the " + nounToUse);
+            }
+        }
+        else
+        {
+            controller.LogStringWithReturn("There is no " + nounToUse + " in your inventory to warp with");
         }
     }
 

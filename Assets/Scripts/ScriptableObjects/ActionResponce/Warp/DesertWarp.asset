@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239453457a65257448df269f81fc7a25, type: 3}
+  m_Name: DesertWarp
+  m_EditorClassIdentifier: 
+  roomToChangeTo: {fileID: 11400000, guid: 69f07e20135a66b4b9c3c29145d54f33, type: 2}

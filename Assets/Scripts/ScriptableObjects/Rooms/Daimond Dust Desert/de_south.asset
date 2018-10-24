@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: de_south
+  m_EditorClassIdentifier: 
+  description: The southern area of the desert.
+  roomName: de_south
+  exits:
+  - keyString: south
+    exitDescription: To the south is the border of the hub.
+    valueRoom: {fileID: 11400000, guid: 95f835c3c9aad6847b9e0f0c9d336360, type: 2}
+  - keyString: north
+    exitDescription: North of here is the desert hub.
+    valueRoom: {fileID: 11400000, guid: 69f07e20135a66b4b9c3c29145d54f33, type: 2}
+  - keyString: east
+    exitDescription: East of here is the south east area.
+    valueRoom: {fileID: 11400000, guid: 9cf2f06c7c968a14f8046e5a316fb8ba, type: 2}
+  - keyString: west
+    exitDescription: West of here is a south west area.
+    valueRoom: {fileID: 11400000, guid: f54b890f9053d9949bac95ada3bcf781, type: 2}
+  interactableObjectsInRoom: []
