@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: sa_ne
+  m_EditorClassIdentifier: 
+  description: The northeast part of the savannah.
+  roomName: sa_ne
+  exits:
+  - keyString: north
+    exitDescription: North of here is the northern area and border of the savanna.
+    valueRoom: {fileID: 11400000, guid: 1321cf0e356d7b244aeda26293b3782d, type: 2}
+  - keyString: east
+    exitDescription: East of here is the far eastern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: f99f81b1afffdcc4985d152905698117, type: 2}
+  - keyString: west
+    exitDescription: West of here is the northwestern part of the savanna.
+    valueRoom: {fileID: 11400000, guid: 45efb19c9197c1c4691703a914693834, type: 2}
+  - keyString: south
+    exitDescription: South of here is the southeastern part of the savanna.
+    valueRoom: {fileID: 11400000, guid: 5ee7af2f6ac66b54ebc91f55ea1336f1, type: 2}
+  interactableObjectsInRoom: []

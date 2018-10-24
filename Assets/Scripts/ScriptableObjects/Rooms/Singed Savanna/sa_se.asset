@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: sa_se
+  m_EditorClassIdentifier: 
+  description: the southeastern part of the savanna
+  roomName: sa_se
+  exits:
+  - keyString: north
+    exitDescription: North of here is the northeastern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: 597e21c53c9120a4dbd1fb235f3a858a, type: 2}
+  - keyString: east
+    exitDescription: East of here is the far eastern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: f99f81b1afffdcc4985d152905698117, type: 2}
+  - keyString: south
+    exitDescription: South of here is the southern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: ba406027267fe984496d31829ef343ef, type: 2}
+  - keyString: west
+    exitDescription: West of herer is the southwest area of the savanna.
+    valueRoom: {fileID: 11400000, guid: 4b561c5474008ea4da25f2279fd00d20, type: 2}
+  interactableObjectsInRoom: []

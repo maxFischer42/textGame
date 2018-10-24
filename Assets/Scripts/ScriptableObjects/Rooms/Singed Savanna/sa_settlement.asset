@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
+  m_Name: sa_settlement
+  m_EditorClassIdentifier: 
+  description: Archfiend settlement
+  roomName: sa_settlement
+  exits:
+  - keyString: north
+    exitDescription: North of here is the northern area of the savanna.
+    valueRoom: {fileID: 0}
+  - keyString: west
+    exitDescription: West of here is the far west area of the savanna.
+    valueRoom: {fileID: 0}
+  - keyString: east
+    exitDescription: To the east is the far east area of the savanna.
+    valueRoom: {fileID: 11400000, guid: f99f81b1afffdcc4985d152905698117, type: 2}
+  - keyString: south
+    exitDescription: South of here is the southern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: ba406027267fe984496d31829ef343ef, type: 2}
+  interactableObjectsInRoom: []
