@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: b_room2b
   m_EditorClassIdentifier: 
-  description: 
+  description: You come to another section of this maze like area. one of the crystalized
+    trees has some writing on it. It reads "The favored historical ruler of skeletons
+    is none other than Napoleon Bone-a-part."-Now thats some quality lore right there.
   roomName: mb_2b
   exits:
   - keyString: south

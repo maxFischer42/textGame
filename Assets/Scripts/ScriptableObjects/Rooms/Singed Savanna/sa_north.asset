@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_north
   m_EditorClassIdentifier: 
-  description: 'The north part of the '
+  description: The north part of the savanna.
   roomName: sa_north
   exits:
   - keyString: east

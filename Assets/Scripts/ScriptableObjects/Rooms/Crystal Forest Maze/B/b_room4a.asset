@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: b_room4a
   m_EditorClassIdentifier: 
-  description: 
+  description: 'You come to another section of this maze like area. Theres a great
+    many sharp crystals in this area. '
   roomName: mb_4a
   exits:
   - keyString: north

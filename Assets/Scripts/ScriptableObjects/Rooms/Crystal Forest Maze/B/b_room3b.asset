@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: b_room3b
   m_EditorClassIdentifier: 
-  description: 
+  description: You come to another section of this maze like area. Its very sunny
+    and refelctive here. The smell of chocolate is really starting to get you.
   roomName: mb_3b
   exits:
   - keyString: east

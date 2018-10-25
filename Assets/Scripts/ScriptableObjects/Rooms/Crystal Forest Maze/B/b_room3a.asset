@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: b_room3a
   m_EditorClassIdentifier: 
-  description: 
+  description: You come to another section of this maze like area. Theres a large
+    crystalized tree root here. Dont trip!!! Also theres a thicker smell of chocolate.
   roomName: mb_3a
   exits:
   - keyString: north

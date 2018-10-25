@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: b_end
   m_EditorClassIdentifier: 
-  description: You've reached the end of the maze.
+  description: You've reached the end of the crystal maze. In one of the crystals
+    you see a large hunk of chocolate.
   roomName: mb_end
   exits:
   - keyString: north

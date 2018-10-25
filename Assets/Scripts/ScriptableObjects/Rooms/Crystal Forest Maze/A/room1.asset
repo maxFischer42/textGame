@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: room1
   m_EditorClassIdentifier: 
-  description: 
+  description: You come to another section of this maze like area. The ground is very
+    loose here.
   roomName: ma_r1
   exits:
   - keyString: west

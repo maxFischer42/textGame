@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: Border
   m_EditorClassIdentifier: 
-  description: This room borders the hub.
+  description: You come to a place between the southern plain of grass and a grassy
+    savanna.
   roomName: sa_hub
   exits:
   - keyString: south
