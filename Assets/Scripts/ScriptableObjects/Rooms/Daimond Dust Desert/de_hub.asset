@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: de_hub
   m_EditorClassIdentifier: 
-  description: The main hub of the Daimond Dust Desert.
+  description: "You enter the diamond pyramid. It provides decent shelter from the
+    outside world. You see odd pictures of skeletons dancing and writing on the wall.
+    Engraved on the wall it reads \u201CSpooky scary skeletons!\u201D "
   roomName: de_hub
   exits:
   - keyString: south

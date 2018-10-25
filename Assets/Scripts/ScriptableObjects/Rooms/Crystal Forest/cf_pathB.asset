@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: cf_pathB
   m_EditorClassIdentifier: 
-  description: This is the entrance to path a's maze.
+  description: Theres two large cyrstal spikes stabing out of the ground making a
+    triangle like door way.
   roomName: cf_pathB
   exits:
   - keyString: west

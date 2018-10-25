@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_ne
   m_EditorClassIdentifier: 
-  description: 
+  description: An area full of grassy grass.
   roomName: hu_northeast
   exits: []
   interactableObjectsInRoom: []

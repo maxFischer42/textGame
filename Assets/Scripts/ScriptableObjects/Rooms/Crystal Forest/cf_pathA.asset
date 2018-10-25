@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: cf_pathA
   m_EditorClassIdentifier: 
-  description: This is the entrance to path a's maze.
+  description: The crystal trees seemed to have crytalized into a square like formation.
   roomName: cf_pathA
   exits:
   - keyString: east

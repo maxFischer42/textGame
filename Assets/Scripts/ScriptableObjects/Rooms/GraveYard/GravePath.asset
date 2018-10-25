@@ -11,7 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: GravePath
   m_EditorClassIdentifier: 
-  description: Path to hub area.
+  description: "The path is very narrow with grave stones surrounding the path like
+    individual blades of grass. You look closely at one of the stones\u2026.it says
+    \u201CYou don\u2019t look ready skeleton\u201D Further east see that the path
+    leads to a small but towering church. In the west you see the grave you climbed
+    out of.\n"
   roomName: grave02
   exits:
   - keyString: east

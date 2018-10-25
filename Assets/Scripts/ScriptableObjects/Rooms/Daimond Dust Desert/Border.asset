@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: Border
   m_EditorClassIdentifier: 
-  description: A bridging of a desert and the main hub.
+  description: "You arrive at the diamond dust region only to find a massive desert
+    made of\u2026of\u2026..diamonds? Well looks like you found diamonds!!! Well it\u2019s
+    not like you can do anything with them, I mean after all you\u2019re just a skeleton."
   roomName: de_border
   exits:
   - keyString: south

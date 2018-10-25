@@ -8,10 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
-  m_Name: hu_sw
+  m_Script: {fileID: 11500000, guid: c060184a6ca603540a03f1716534f024, type: 3}
+  m_Name: Arrow
   m_EditorClassIdentifier: 
-  description: A large field of grass which spells out grass.
-  roomName: hu_southwest
-  exits: []
-  interactableObjectsInRoom: []
+  noun: name
+  description: Description in room
+  interactions: []

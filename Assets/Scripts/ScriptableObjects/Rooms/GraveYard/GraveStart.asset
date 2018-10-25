@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: GraveStart
   m_EditorClassIdentifier: 
-  description: Graveyard start.
+  description: "You awake in a badly kept grave yard\u2026.one grave says \u201CAre
+    you ready skeleton?\u201D A path lies to the east continuing through the grave
+    yard. In the distance you think you see a silhouette of a church."
   roomName: grave01
   exits:
   - keyString: east

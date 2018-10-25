@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: de_south
   m_EditorClassIdentifier: 
-  description: The southern area of the desert.
+  description: This is the southern area of the Diamond Dust Desert. It so sparkley
+    here but oh so sharp....be careful!
   roomName: de_south
   exits:
   - keyString: south

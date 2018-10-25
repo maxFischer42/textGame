@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: de_ne
   m_EditorClassIdentifier: 
-  description: The north east area of the desert.
+  description: "You come to the north east region of the diamond dust desert. There\u2019s
+    nothing but small dunes in this region."
   roomName: de_ne
   exits:
   - keyString: south

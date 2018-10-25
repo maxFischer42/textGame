@@ -11,7 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: de_se
   m_EditorClassIdentifier: 
-  description: 
+  description: " You come to the south east region of the diamond dust area. A sign
+    reads \u201CWe meet again skeleton\u2026.What did you really think you had gotten
+    rid of me skeleton?\u201D The sign seems to be your only companionship here in
+    this sparkling waste land."
   roomName: de_se
   exits:
   - keyString: west

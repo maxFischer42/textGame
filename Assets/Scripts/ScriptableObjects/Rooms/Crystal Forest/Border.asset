@@ -11,7 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: Border
   m_EditorClassIdentifier: 
-  description: The border of the Daimond Dust Desert and the Crystal Forest.
+  description: 'The border of the Daimond Dust Desert and the Crystal Forest. Theres
+    a grand entrance of crystal trees making an arch as far as the eye can see. In
+    front of the forest lies a massive desert made of diamond dust.
+
+'
   roomName: cf_border
   exits:
   - keyString: north

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_se
   m_EditorClassIdentifier: 
-  description: 
+  description: Large fields of grass cover the area of grass.
   roomName: hu_southeast
   exits: []
   interactableObjectsInRoom: []
