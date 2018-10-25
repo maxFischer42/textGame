@@ -20,5 +20,5 @@ MonoBehaviour:
   exits:
   - keyString: east
     exitDescription: A path leading into the hub area to the east.
-    valueRoom: {fileID: 11400000, guid: 11534a4b62bd14744ad96703e1e639ba, type: 2}
+    valueRoom: {fileID: 11400000, guid: e8d9a231b9f99ab459d2940bd6410715, type: 2}
   interactableObjectsInRoom: []

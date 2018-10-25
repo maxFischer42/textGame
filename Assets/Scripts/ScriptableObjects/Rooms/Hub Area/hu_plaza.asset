@@ -9,15 +9,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
-  m_Name: hu_ne
+  m_Name: hu_plaza
   m_EditorClassIdentifier: 
-  description: The northeastern area of the plain. An area full of grassy grass.
-  roomName: hu_northeast
+  description: This is the main plaza in the middle of the plain.
+  roomName: hu_plaza
   exits:
-  - keyString: west
-    exitDescription: West of here is the northern plain.
-    valueRoom: {fileID: 11400000, guid: 4e3161ab3de50ca48b07f023924945ce, type: 2}
   - keyString: south
-    exitDescription: South of here is the east plain.
+    exitDescription: To the south is the southern plain.
+    valueRoom: {fileID: 11400000, guid: a41c1964ff02a7443b36ce5fe925abae, type: 2}
+  - keyString: east
+    exitDescription: To the east is the eastern plain.
     valueRoom: {fileID: 11400000, guid: 979b6b570bfc5d04c944018797e1109e, type: 2}
+  - keyString: west
+    exitDescription: To the west is the western plain.
+    valueRoom: {fileID: 11400000, guid: cdca1770968d55c43a13f6cee4ab4707, type: 2}
   interactableObjectsInRoom: []

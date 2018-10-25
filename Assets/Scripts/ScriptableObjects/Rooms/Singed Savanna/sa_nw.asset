@@ -18,7 +18,7 @@ MonoBehaviour:
     exitDescription: North of here is the northern area of the savanna.
     valueRoom: {fileID: 11400000, guid: 1321cf0e356d7b244aeda26293b3782d, type: 2}
   - keyString: east
-    exitDescription: East of here is the nrotheastern area of the savanna.
+    exitDescription: East of here is the northeastern area of the savanna.
     valueRoom: {fileID: 11400000, guid: 597e21c53c9120a4dbd1fb235f3a858a, type: 2}
   - keyString: south
     exitDescription: South of here is the southwestern area of the savanna.

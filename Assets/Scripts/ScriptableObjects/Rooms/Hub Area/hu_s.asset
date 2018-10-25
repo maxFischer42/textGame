@@ -11,7 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_s
   m_EditorClassIdentifier: 
-  description: Fields of grass cover the grass.
+  description: The southern area of the plain. Fields of grass cover the grass.
   roomName: hu_south
-  exits: []
+  exits:
+  - keyString: north
+    exitDescription: North of here is the Golden Gate Plaza.
+    valueRoom: {fileID: 11400000, guid: 1bf557e861e4bb247912309563edf5ab, type: 2}
+  - keyString: south
+    exitDescription: South of here is the border to the singed savanna.
+    valueRoom: {fileID: 11400000, guid: dfbbce8be8afdb4448f7c223d9ea64cc, type: 2}
+  - keyString: east
+    exitDescription: East of here is the southeastern area of the plain.
+    valueRoom: {fileID: 11400000, guid: 26fca0431c8dfe844ba8721b8b3ff461, type: 2}
+  - keyString: west
+    exitDescription: West of here is the southwestern plain.
+    valueRoom: {fileID: 11400000, guid: e8d9a231b9f99ab459d2940bd6410715, type: 2}
   interactableObjectsInRoom: []

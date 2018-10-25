@@ -11,7 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_west
   m_EditorClassIdentifier: 
-  description: 
-  roomName: 
-  exits: []
+  description: The far western area of the savanna.
+  roomName: sa_west
+  exits:
+  - keyString: east
+    exitDescription: East of here is the archfiend settlements.
+    valueRoom: {fileID: 11400000, guid: b198b4878db6df64e88d9f527899f618, type: 2}
+  - keyString: north
+    exitDescription: North of here is the northern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: 1321cf0e356d7b244aeda26293b3782d, type: 2}
+  - keyString: northeast
+    exitDescription: Northeast of here is the northwest area of the savanna.
+    valueRoom: {fileID: 11400000, guid: 45efb19c9197c1c4691703a914693834, type: 2}
+  - keyString: southeast
+    exitDescription: Southeast of here is the southwest area.
+    valueRoom: {fileID: 11400000, guid: ea933f2a4d6593d49bddf43e3c76433b, type: 2}
   interactableObjectsInRoom: []

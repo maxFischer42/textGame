@@ -11,7 +11,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_w
   m_EditorClassIdentifier: 
-  description: A large plain full of various grass and tall corn.
+  description: The western plain area. A large plain full of various grass and tall
+    corn.
   roomName: hu_west
-  exits: []
+  exits:
+  - keyString: east
+    exitDescription: To the east is the Golden Gate Plaza.
+    valueRoom: {fileID: 11400000, guid: 1bf557e861e4bb247912309563edf5ab, type: 2}
+  - keyString: north
+    exitDescription: North of here is the northwest area of the plain.
+    valueRoom: {fileID: 11400000, guid: 77ea4b1628488a74d836d29be38454e6, type: 2}
+  - keyString: south
+    exitDescription: South of here is the southwestern area of the plain.
+    valueRoom: {fileID: 11400000, guid: e8d9a231b9f99ab459d2940bd6410715, type: 2}
   interactableObjectsInRoom: []

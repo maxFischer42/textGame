@@ -11,7 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_southeast
   m_EditorClassIdentifier: 
-  description: 
-  roomName: 
-  exits: []
+  description: "The southeast area of the savanna.\t\t\t\t"
+  roomName: sa_se
+  exits:
+  - keyString: north
+    exitDescription: North of here is the northeastern savanna.
+    valueRoom: {fileID: 11400000, guid: 1321cf0e356d7b244aeda26293b3782d, type: 2}
+  - keyString: south
+    exitDescription: South of here is the southern savanna.
+    valueRoom: {fileID: 11400000, guid: ba406027267fe984496d31829ef343ef, type: 2}
+  - keyString: west
+    exitDescription: West of here is the southwestern area.
+    valueRoom: {fileID: 11400000, guid: ea933f2a4d6593d49bddf43e3c76433b, type: 2}
+  - keyString: east
+    exitDescription: east of here is the eastern area of the savanna.
+    valueRoom: {fileID: 11400000, guid: f99f81b1afffdcc4985d152905698117, type: 2}
   interactableObjectsInRoom: []

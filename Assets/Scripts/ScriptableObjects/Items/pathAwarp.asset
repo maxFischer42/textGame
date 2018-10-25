@@ -22,5 +22,5 @@ MonoBehaviour:
     textResponse: You can use this to warp to the first room of path A's maze.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 960b9cac0fa3f4a4e8cb0e072a0e8a1b, type: 2}
-    textResponse: You obtained the forest path a warp!
+    textResponse: You obtained the forest path A warp!
     actionResponse: {fileID: 0}

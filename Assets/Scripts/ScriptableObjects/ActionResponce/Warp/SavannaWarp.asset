@@ -8,9 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c060184a6ca603540a03f1716534f024, type: 3}
-  m_Name: Cracker
+  m_Script: {fileID: 11500000, guid: 239453457a65257448df269f81fc7a25, type: 3}
+  m_Name: SavannaWarp
   m_EditorClassIdentifier: 
-  noun: name
-  description: Description in room
-  interactions: []
+  roomToChangeTo: {fileID: 11400000, guid: 1321cf0e356d7b244aeda26293b3782d, type: 2}

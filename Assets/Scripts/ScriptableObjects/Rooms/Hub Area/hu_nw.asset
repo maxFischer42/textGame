@@ -11,7 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_nw
   m_EditorClassIdentifier: 
-  description: A large field full of..........apple grass.
+  description: The northwestern plain. A large field full of..........apple grass.
   roomName: hu_northwest
-  exits: []
+  exits:
+  - keyString: east
+    exitDescription: To the east is the northern plain.
+    valueRoom: {fileID: 11400000, guid: 4e3161ab3de50ca48b07f023924945ce, type: 2}
+  - keyString: south
+    exitDescription: South of here is the western area of the plain.
+    valueRoom: {fileID: 11400000, guid: cdca1770968d55c43a13f6cee4ab4707, type: 2}
   interactableObjectsInRoom: []

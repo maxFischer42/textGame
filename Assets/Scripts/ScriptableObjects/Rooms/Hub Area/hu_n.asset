@@ -11,7 +11,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_n
   m_EditorClassIdentifier: 
-  description: A grassy area of multiple blades of grass.
+  description: The northern area of the plain. A grassy area of multiple blades of
+    grass.
   roomName: hu_north
-  exits: []
+  exits:
+  - keyString: west
+    exitDescription: West of here is the northwestern plain.
+    valueRoom: {fileID: 11400000, guid: 77ea4b1628488a74d836d29be38454e6, type: 2}
+  - keyString: east
+    exitDescription: East of here is the northeastern plain.
+    valueRoom: {fileID: 11400000, guid: d33ba6ac4f694cc49a0cdb169b73a8a8, type: 2}
+  - keyString: north
+    exitDescription: North of here is the Diamond Dust Desert.
+    valueRoom: {fileID: 11400000, guid: 95f835c3c9aad6847b9e0f0c9d336360, type: 2}
   interactableObjectsInRoom: []
