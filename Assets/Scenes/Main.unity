@@ -389,6 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   usableItemList:
   - {fileID: 11400000, guid: 86793425adf4d494b9495a8149973b70, type: 2}
+  - {fileID: 11400000, guid: 72af31eaa2f46ef4abf6168dd59bb8bb, type: 2}
   - {fileID: 11400000, guid: 1c2a4a82b4677aa4390d9a3ed0d26aa9, type: 2}
   - {fileID: 11400000, guid: ffe8f07dae67e8947a8e23f8ab3db677, type: 2}
   - {fileID: 11400000, guid: 222a146cb1b319e4fb298df77a2dde0e, type: 2}
@@ -397,6 +398,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9fd5e1b1796692149963d287232d77d6, type: 2}
   - {fileID: 11400000, guid: 4153f88ecaaee4e499fcf5791eadc252, type: 2}
   - {fileID: 11400000, guid: 8a7bb987643eed043beef38eeb85ae10, type: 2}
+  - {fileID: 11400000, guid: 5a4ed83f44ce5d7478395af0150babe0, type: 2}
   - {fileID: 11400000, guid: 7ac2e91c3898f6d4998ab675e82317ba, type: 2}
   nounsInRoom: []
 --- !u!114 &646966317

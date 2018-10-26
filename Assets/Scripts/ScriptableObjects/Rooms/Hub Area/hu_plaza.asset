@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_plaza
   m_EditorClassIdentifier: 
-  description: This is the main plaza in the middle of the plain.
+  description: This is the main plaza in the middle of the plain. In the center of
+    the plaza there is a pedastal to use certain items.
   roomName: hu_plaza
   exits:
   - keyString: south
