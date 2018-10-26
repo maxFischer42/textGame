@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_settlement
   m_EditorClassIdentifier: 
-  description: Archfiend settlement
+  description: You come to the archfiend settlement. All round you is skeletons hoisted
+    on large spikes. Their bones seem to be charred from fire at the stake....guess
+    they became bone dry.
   roomName: sa_settlement
   exits:
   - keyString: north

@@ -11,8 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_plaza
   m_EditorClassIdentifier: 
-  description: This is the main plaza in the middle of the plain. In the center of
-    the plaza there is a pedastal to use certain items.
+  description: "As you enter the church you see that the roof of the chapel has rotted
+    away giving a clear view of the ever enduring midnight sky. A few benches still
+    remain along with a pulpit. This place seems to give an aura of safety especially
+    to the common traveler. To the north there\u2019s a wooden door behind the pulpit.
+    Engraved in the pulpit it reads \u201CEvery Sunday, the skeleton plays his organ
+    for the congregation.\u201D "
   roomName: hu_plaza
   exits:
   - keyString: south

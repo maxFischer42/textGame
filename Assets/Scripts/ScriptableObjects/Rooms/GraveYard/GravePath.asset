@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: GravePath
   m_EditorClassIdentifier: 
   description: "The path is very narrow with grave stones surrounding the path like
-    individual blades of grass. You look closely at one of the stones\u2026.it says
-    \u201CYou don\u2019t look ready skeleton\u201D Further east see that the path
-    leads to a small but towering church. In the west you see the grave you climbed
-    out of.\n"
+    individual blades of grass. You look closely at one of the stones, it says \u201CWhy
+    are Grave yards so noisy?..........Becuase of all the coffin.\u201D Further east
+    see that the path leads to a small but towering church. In the west you see the
+    grave you climbed out of.\n"
   roomName: grave02
   exits:
   - keyString: east
