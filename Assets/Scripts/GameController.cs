@@ -29,12 +29,14 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.SetInt("score", 10000);
         DisplayRoomText();
         DisplayLoggedText();
     }
 
     public void DisplayLoggedText()
     {
+
         string logAsText = string.Join("\n", actionLog.ToArray());
 
         displayText.text = logAsText;
@@ -42,6 +44,9 @@ public class GameController : MonoBehaviour
 
     public void DisplayRoomText()
     {
+
+        
+
         ClearCollectionsForNewRoom();
 
         UnpackRoom();
@@ -56,10 +61,17 @@ public class GameController : MonoBehaviour
         }
         else
         {*/
-            combinedText = roomNavigation.currentRoom.description + "\n" + joinedInteractionDescriptions;
-        //}
-
+        combinedText = roomNavigation.currentRoom.description + "\n" + joinedInteractionDescriptions;
+        
+        if (displayText.text.Length > 15000)
+        {
+            Debug.Log("cleared history to not cause errors");
+            GetComponent<limitCharacters>().clearHistory();
+            actionLog = new List<string>();
+        }
+        PlayerPrefs.SetInt("score", PlayerPrefs.GetInt("score") - (PlayerPrefs.GetInt("score") / 15));
         LogStringWithReturn(combinedText);
+
     }
 
 
@@ -129,12 +141,6 @@ public class GameController : MonoBehaviour
 
     public void LogStringWithReturn(string stringToAdd)
     {
-        Debug.Log(displayText.text.Length);
-        if(displayText.text.Length > 15000)
-        {
-            Debug.Log("cleared history to not cause errors");
-            GetComponent<limitCharacters>().clearHistory();
-        }
         actionLog.Add(stringToAdd + "\n");
     }
 }

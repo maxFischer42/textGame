@@ -19,4 +19,4 @@ MonoBehaviour:
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 73cb9764c1328414d9ee309049ad2720, type: 2}
     textResponse: 
-    actionResponse: {fileID: 11400000, guid: be0c75873bec63145a233ecaf76d8fc2, type: 2}
+    actionResponse: {fileID: 11400000, guid: 512aad3b6c789e24fbcde615acf76c75, type: 2}

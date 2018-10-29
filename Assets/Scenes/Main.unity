@@ -451,6 +451,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d21d1b8380d2b9b4e975612f63c34091, type: 2}
   - {fileID: 11400000, guid: 1247628e948be754998765c866cc34a1, type: 2}
   - {fileID: 11400000, guid: 80e8008206bb86a4aac7fe9db2caa7ba, type: 2}
+  - {fileID: 11400000, guid: e7f24e085e0ebcc48bca722826d19c13, type: 2}
+  - {fileID: 11400000, guid: a12e493eff4409546906317400a24a7d, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
   interactableItems: {fileID: 0}
@@ -904,10 +906,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 45
     m_Alignment: 6
     m_AlignByGeometry: 0

@@ -13,6 +13,7 @@ public class ChangeRoomResponse : ActionResponse
     {
         if (controller.roomNavigation.currentRoom.roomName == requiredString && require || !require)
         {
+
             controller.roomNavigation.currentRoom = roomToChangeTo;
             controller.DisplayRoomText();
             return true;
