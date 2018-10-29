@@ -129,6 +129,12 @@ public class GameController : MonoBehaviour
 
     public void LogStringWithReturn(string stringToAdd)
     {
+        Debug.Log(displayText.text.Length);
+        if(displayText.text.Length > 15000)
+        {
+            Debug.Log("cleared history to not cause errors");
+            GetComponent<limitCharacters>().clearHistory();
+        }
         actionLog.Add(stringToAdd + "\n");
     }
 }
