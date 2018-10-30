@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: b_room3b
   m_EditorClassIdentifier: 
   description: You come to another section of this maze like area. Its very sunny
-    and refelctive here. The smell of chocolate is really starting to get you.
+    and reflective here. The smell of chocolate is really starting to get you.
   roomName: mb_3b
   exits:
   - keyString: east

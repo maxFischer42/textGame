@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_north
   m_EditorClassIdentifier: 
-  description: The north part of the savanna.
+  description: The north part of the savanna. You see a large sign and it reads "Well
+    skeleton becuase of you, I have no BODY to love."
   roomName: sa_north
   exits:
   - keyString: east

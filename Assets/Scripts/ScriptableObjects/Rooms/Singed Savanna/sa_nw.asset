@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_nw
   m_EditorClassIdentifier: 
-  description: The northwestern area of the savanna.
+  description: The northwestern area of the savanna. Its very swampy here.......watch
+    out for the giant catfish!!!!
   roomName: sa_nw
   exits:
   - keyString: north

@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_sw
   m_EditorClassIdentifier: 
-  description: The southwest area of the savanna.
+  description: "The southwest area of the savanna. You see a giant tree with a Skeleton
+    sitting on the top of the tree. Pinned to the tree is a sign and it reads \"Why
+    did the skeleton climb up the tree?\r Because a dog was after his bones!\r\"\n\r\n"
   roomName: sa_sw
   exits:
   - keyString: north
