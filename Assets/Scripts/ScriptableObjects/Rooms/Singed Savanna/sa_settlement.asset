@@ -18,14 +18,15 @@ MonoBehaviour:
   exits:
   - keyString: north
     exitDescription: North of here is the northern area of the savanna.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: 1321cf0e356d7b244aeda26293b3782d, type: 2}
   - keyString: west
     exitDescription: West of here is the far west area of the savanna.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: 4b561c5474008ea4da25f2279fd00d20, type: 2}
   - keyString: east
     exitDescription: To the east is the far east area of the savanna.
     valueRoom: {fileID: 11400000, guid: f99f81b1afffdcc4985d152905698117, type: 2}
   - keyString: south
     exitDescription: South of here is the southern area of the savanna.
     valueRoom: {fileID: 11400000, guid: ba406027267fe984496d31829ef343ef, type: 2}
-  interactableObjectsInRoom: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: b32b5d82cdbd9614d8b40e9645fc860c, type: 2}

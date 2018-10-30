@@ -40,6 +40,7 @@ public class TextInput : MonoBehaviour
     {
         controller.DisplayLoggedText();
         inputField.ActivateInputField();
+        PlayerPrefs.SetString("record", inputField.text);
         inputField.text = null;
     }
 

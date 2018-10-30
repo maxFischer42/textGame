@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: hu_ne
   m_EditorClassIdentifier: 
-  description: The northeastern area of the plain. An area full of grassy grass.
+  description: The northeastern area of the plain. An area full of grassy grass. There
+    is a bonely man here. He looks dangerous!
   roomName: hu_northeast
   exits:
   - keyString: west
