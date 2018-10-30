@@ -12,10 +12,7 @@ public class BOne : ActionResponse
     {
         if (controller.roomNavigation.currentRoom.roomName == requiredString)
         {
-            GameObject.Find("tenor2_0").GetComponent<SpriteRenderer>().enabled = true;
-            controller.LogStringWithReturn("Here is a present!");
-            PlayerPrefs.SetInt("score", PlayerPrefs.GetInt("Score") + 3500);
-            return true; 
+            GameObject.FindGameObjectWithTag("BG1").GetComponent<SpriteRenderer>().enabled = true;
         }
 
         return false;

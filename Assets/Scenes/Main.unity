@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 183553996}
   m_Layer: 0
   m_Name: tenor2_0
-  m_TagString: Untagged
+  m_TagString: BG1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
