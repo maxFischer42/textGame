@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "TextAdventure/InputActions/GameEnd")]
-public class Lick : InputAction
+public class GameEnd : InputAction
 {
     
 

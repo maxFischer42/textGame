@@ -8,8 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ab6ca391eebabc4f9a3b9d39b1c371f, type: 3}
-  m_Name: Knight
+  m_Script: {fileID: 11500000, guid: 733acdb2158c6064ab6259a6193c5628, type: 3}
+  m_Name: 1
   m_EditorClassIdentifier: 
-  requiredString: throne
-  roomToChangeTo: {fileID: 11400000, guid: 178fa8ce2e98c2144a1023cd4a1e814b, type: 2}
+  keyWord: 1
+  Aud: {fileID: 8300000, guid: c57f0d5eda1f1204bb4504026e0a793d, type: 3}
+  refer: {fileID: 1062142238579914, guid: f839383db4a0aa94b99ddece17825a02, type: 2}

@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e357beb9779913349af2ef57477ac57d, type: 3}
   m_Name: BoNe
   m_EditorClassIdentifier: 
-  requiredString: hu_ne
+  requiredString: hu_northeast
