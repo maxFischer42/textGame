@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_east
   m_EditorClassIdentifier: 
-  description: Far eastern savannah.
+  description: Far eastern savannah. in the distance you see a giant catfish sleeping
+    in a puddle. Well if a catfish slept anywhere it would be a water bed.
   roomName: sa_east
   exits:
   - keyString: north

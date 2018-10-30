@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9019754bfa16044a644c3c865d20d3, type: 3}
   m_Name: sa_south
   m_EditorClassIdentifier: 
-  description: Southern area of the savanna.
+  description: "Southern area of the savanna. You come to an area where it looks like
+    a lovely picnic took place. You see a basket with a card that reads \"That skeleton
+    sure brought his appetite to the picnic\u2014and also some spare ribs.\""
   roomName: sa_south
   exits:
   - keyString: north
